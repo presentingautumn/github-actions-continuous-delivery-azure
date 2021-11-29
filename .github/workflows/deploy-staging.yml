@@ -1,7 +1,7 @@
-name: Staging the app
+name: Stage the app
 
 on: 
-  pull_request
+  pull_request:
     types: [labeled]
 
 jobs:
